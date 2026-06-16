@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Calculate Me</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body
+    id="body"
+    class="min-h-screen flex items-center justify-center bg-slate-900 transition-all duration-500 p-4"
+  >
+    <div class="calculator glass">
+      <div class="flex justify-between items-center mb-4">
+        <h1 class="text-white text-xl font-bold">Calculator</h1>
+
+        <button id="themeToggle" class="toggle-btn">🌙</button>
+      </div>
+
+      <input id="display" type="text" readonly class="display" />
+
+      <div class="grid grid-cols-4 gap-3">
+        <button class="btn operator">C</button>
+        <button class="btn operator">%</button>
+        <button class="btn operator">⌫</button>
+        <button class="btn operator">/</button>
+
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn operator">*</button>
+
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn operator">-</button>
+
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn operator">+</button>
+
+        <button class="btn">0</button>
+        <button class="btn">.</button>
+
+        <button class="btn equal col-span-2">=</button>
+      </div>
+
+      <div class="history-container">
+        <div class="history-header">
+          <span>History</span>
+
+          <button id="clearHistory">Clear</button>
+        </div>
+
+        <ul id="historyList"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
