@@ -1,10 +1,6 @@
 # Calculator Web Application
 
-A simple calculator built using:
-
-- HTML
-- Tailwind CSS
-- JavaScript
+A modern calculator built using HTML, Tailwind CSS, and JavaScript.
 
 ## Features
 
@@ -14,15 +10,31 @@ A simple calculator built using:
 - Division
 - Input validation
 - Division by zero handling
-- Responsive UI
-- Glassmorphism design
+- Clear (C) button
+- Backspace (⌫) button
+- Keyboard support
+- Calculation history
+- Dark/Light mode toggle
+- Responsive design
+- Animated result display
+- Glassmorphism UI
+
+## Technologies Used
+
+- HTML5
+- Tailwind CSS
+- JavaScript
+
+## Live Demo
+
+https://harshit0712x.github.io/calculator-project/
 
 ## How to Run
 
-1. Download the project.
-2. Open index.html in a browser.
+1. Clone the repository
+2. Open `index.html`
+3. Start using the calculator
 
 ## Author
 
 Harshit Vishwakarma
-=======
