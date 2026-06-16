@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Calculator Web Application
 
 A simple calculator built using:
@@ -25,3 +26,4 @@ A simple calculator built using:
 ## Author
 
 Harshit Vishwakarma
+=======
