@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Calculator Web Application
 
 A simple calculator built using:
